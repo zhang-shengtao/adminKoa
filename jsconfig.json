@@ -1,0 +1,13 @@
+{
+  "compilerOptions": {
+    "module": "CommonJS",
+    "baseUrl": "/",
+    "paths": {
+      "@": ["./*"],
+      "@core": ["./core/*"],
+      "@cfg": ["./config/*"],
+      "@ctl": ["./controller/*"]
+    }
+  },
+  "exclude": ["node_modules"]
+}

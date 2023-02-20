@@ -1,0 +1,36 @@
+{
+  "name": "admin",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "nodemon": "nodemon bin/www",
+    "dev": "node bin/www"
+  },
+  "author": "",
+  "_moduleAliases": {
+    "@": "./",
+    "@core": "./core",
+    "@cfg": "./config",
+    "@ctl": "./controller"
+  },
+  "license": "ISC",
+  "dependencies": {
+    "@koa/router": "^12.0.0",
+    "bcrypt": "^5.1.0",
+    "dotenv-safe": "^8.2.0",
+    "jsonwebtoken": "^9.0.0",
+    "koa": "^2.14.1",
+    "koa-bodyparser": "^4.3.0",
+    "koa-bouncer": "^6.0.4",
+    "koa-json": "^2.0.2",
+    "koa-jwt": "^4.0.4",
+    "koa-logger": "^3.2.1",
+    "koa-session": "^6.4.0",
+    "koa-static": "^5.0.0",
+    "koa2-cors": "^2.0.6",
+    "module-alias": "^2.2.2",
+    "mongoose": "^6.9.2",
+    "svg-captcha": "^1.4.0"
+  }
+}
